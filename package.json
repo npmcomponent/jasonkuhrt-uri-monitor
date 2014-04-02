@@ -1,42 +1,23 @@
 {
-  "name": "uri-monitor",
-  "version": "0.1.3",
+  "name": "jasonkuhrt-uri-monitor",
   "description": "Monitor a URI's connectivity",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "eventemitter2": "~0.4.13",
-    "lodash": "~2.3.0",
-    "superagent": "~0.15.7",
-    "debug": "~0.7.4",
-    "maybe": "git://github.com/jasonkuhrt/maybe"
-  },
-  "devDependencies": {
-    "tap": "~0.4.4",
-    "nock": "~0.23.0",
-    "express": "~3.4.4"
-  },
-  "scripts": {
-    "test": "tap test/*.js --stderr"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jasonkuhrt/uri-monitor.git"
-  },
+  "version": "0.1.4",
   "keywords": [
     "uri",
     "url",
     "monitor",
     "event",
+    "status",
     "connection",
-    "disconnection",
-    "status"
+    "disconnection"
   ],
-  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/jasonkuhrt/uri-monitor/issues"
-  }
+  "main": "index.js",
+  "dependencies": {
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git",
+    "visionmedia-superagent": "git://github.com/npmcomponent/visionmedia-superagent.git",
+    "lodash-lodash": "git://github.com/npmcomponent/lodash-lodash.git",
+    "jasonkuhrt-maybe": "git://github.com/npmcomponent/jasonkuhrt-maybe.git",
+    "asyncly-EventEmitter2": "git://github.com/npmcomponent/asyncly-EventEmitter2.git"
+  },
+  "license": "MIT"
 }

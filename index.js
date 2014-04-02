@@ -1,8 +1,8 @@
 var EventEmitter2 = require('eventemitter2').EventEmitter2;
-var _ = require('lodash');
-var request = require('superagent');
-var log = require('debug')('uri_monitor');
-var Maybe = require('maybe');
+var _ = require('lodash-lodash');
+var request = require('visionmedia-superagent');
+var log = require('visionmedia-debug')('uri_monitor');
+var Maybe = require('jasonkuhrt-maybe');
 var State = require('./lib/state');
 
 // Helpers
